@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #F2F2E9;
+}
+
+.hero-section {
+    background-image: url('images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4E6637;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-content {
+    text-align: center;
+    color: #2b3521;
+    margin-bottom: 260px;
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+
+.catalog-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #F2F2E9;
+}
+
+.catalog-button {
+    padding: 15px 30px;
+    background-color: #4E6637;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.catalog-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 3rem;
+    color: #4E6637;
+}
+.navbar a {
+    color: #4E6637;
+    font-size: 1.2rem;
+}
+
+.navbar #btn {
+    background-color: #4E6637;
+    color: white;
+}
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.btn-info {
+    background-color: #426B1F;
+    color: white;
+}
